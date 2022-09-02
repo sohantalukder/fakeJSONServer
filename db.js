@@ -3,11 +3,12 @@ const videos = require('./data/videos');
 const videos2 = require('./data/videos2');
 const transactions = require('./data/transactions');
 const db_videos = require('./data/db_videos');
-
+const tags = require('./data/tags');
 module.exports = {
 	todos,
 	videos,
 	videos2,
 	db_videos,
 	transactions,
+	tags,
 };
